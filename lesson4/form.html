@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Dating profile</legend>
+            Name: <input type="text" name="name" id="name"> <br>
+            Phone: <input type="text" name="phone" id="phone"> <br>
+            Social network (vk, tg): <input type="text" name="soc_net" id="soc_net"> <br>
+            Sex: 
+            <select name="sex" id="sex">
+                <option value="0">Female</option>
+                <option value="1">Male</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Hobbies</legend>
+            <input type="checkbox" name="dances" id="dances">Dances
+            <input type="checkbox" name="books" id="books">Books
+            <input type="checkbox" name="music" id="music">Music
+            <br>
+            Other: <textarea name="other" id="other" cols="20" rows="5"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
